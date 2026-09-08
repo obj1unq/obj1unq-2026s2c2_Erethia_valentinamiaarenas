@@ -37,4 +37,14 @@ describe "tests de erethia" {
         rolando.encuentraArtefacto(collarDivino)
 
     }
+
+    test "test parte 2.1" {
+        rolando.actualizarCapacidadMaxima()
+        rolando.encuentraArtefacto(espadaDelDestino)
+        rolando.encuentraArtefacto(armaduraDeAceroValyrio)
+        rolando.encuentraArtefacto(collarDivino)
+        rolando.pelearBatalla()
+        rolando.pelearBatalla()
+        rolando.pelearBatalla()
+    }
 }
